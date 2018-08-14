@@ -15,7 +15,7 @@ LOCAL_SRC_FILES:= \
 	reverb.c \
 	effect_api.c
 
-LOCAL_CFLAGS+= -O2 -fvisibility=hidden
+LOCAL_CFLAGS+= -O2 -fvisibility=hidden -Wno-error
 
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
